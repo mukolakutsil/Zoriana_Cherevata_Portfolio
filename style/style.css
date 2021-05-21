@@ -1,0 +1,255 @@
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+.header {
+	border-bottom: 1px solid #828282;
+}
+
+.header-link {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.link {
+	text-decoration: none;
+	color: #828282;
+	font-family: Gilroy-Bold;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.active {
+	color: #070707;
+}
+
+.vertolit {
+	width: 100px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.conten-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	/*background: red;*/
+	margin-bottom: 20px;
+}
+
+.name {
+	font-family: Gilroy-Bold;
+	font-size: 30px;
+	line-height: 59px;
+	color: #070707;
+}
+
+.info {
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+	margin-bottom: 10px;
+}
+
+.name-text {
+	margin: 0;
+	padding: 0;
+}
+
+.langusge {
+	transform: rotate(-90det);
+	margin-bottom: 20px;
+
+}
+
+.info-text {
+	padding: 0;
+	margin: 0;
+}
+
+.img-wrap {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.about-me {
+	background: #F6F6F6;
+	height: 480px;
+}
+
+.about-me-title {
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	padding-top: 100px;
+	padding-bottom: 18px;
+
+}
+
+.about-me-flex-wrape {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 485px;
+	justify-content: space-between;
+	height: 218px;
+	margin-bottom: 128px;
+}
+
+.about-me-text {
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+}
+
+.skills-wrap {
+	width: 80%;
+
+	margin: auto;
+	text-align: center;
+}
+
+.skills-title {
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	padding-top: 80px;
+	padding-bottom: 70px;
+}
+
+.skills-text {
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+	margin-bottom: 83px;
+
+}
+
+.skills-flex-wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 111px;
+}
+
+.flex-element {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	width: 166px;
+	height: 206px;
+}
+
+.element_avatarka {
+	width: 100px;
+	height: 100px;
+
+}
+
+.flex-element span {
+	font-family: Gilroy-Bold;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	color: #828282;
+}
+
+.portfolio {
+	background: #F6F6F6;
+	margin-bottom: 80px;
+	padding-bottom: 40px;
+}
+
+
+.portfolio-wrap {
+	width: 80%;
+	margin: auto;
+}
+
+.portfolio-title {
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+	color: #070707;
+	padding-top: 112px;
+	padding-bottom: 47px;
+}
+
+.portfolio-wrap p {
+	font-family: Gilroy-Medium;
+	font-size: 25px;
+	line-height: 22px;
+	text-align: center;
+	/* text-decoration-line: underline; */
+	color: #070707;
+	margin-bottom: 20px;
+
+	padding: 0;
+}
+
+.portfolio-wrap h3 {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 30px;
+}
+
+.portfolio-wrap a {
+	text-decoration: none;
+}
+
+
+.contacts {
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.contacts-title {
+	font-family: Gilroy-Bold;
+	font-size: 34px;
+	line-height: 42px;
+	text-align: center;
+}
+
+.contacts-text {
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #070707;
+}
+
+.contacts-btn {
+	font-family: Gilroy-Bold;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 13px 30px 13px 28px;
+	background: black;
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.link:hover {
+	color: black;
+}
